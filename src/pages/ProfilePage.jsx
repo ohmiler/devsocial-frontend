@@ -119,7 +119,7 @@ function ProfilePage() {
             <div className='w-32 h-32 bg-blue-500 rounded-full mx-auto mb-4'>
                 {profile.profilePicture ? (
                     <img 
-                        src={`http://localhost:5000/${profile.profilePicture}`}
+                        src={`/${profile.profilePicture}`}
                         alt={profile.username}
                         className='w-full h-full rounded-full object-cover'
                     />
